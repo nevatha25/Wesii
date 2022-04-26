@@ -1,0 +1,68 @@
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+    span{
+        font-weight: 600;
+        color: rgba(255, 212, 32, 1);
+        @media(min-width:1400px){
+            font-weight: 900;
+        }
+    }
+    @media(min-width:769px){
+        font-size: 3rem;
+    }
+    @media (min-width:1201px){
+        font-size: 3rem;
+        width: 60%;
+    }
+    @media(min-width:1400px){
+        font-size: 4rem;
+        line-height: 4rem;
+        font-weight: 100;
+    }
+}//h1 end
+h2{
+    font-size: 1.7rem;
+    font-weight: 200;
+    line-height: 2.5rem;
+    @media(min-width:1025px){
+        font-size: 2.3rem;
+    }
+    @media(min-width:1400px){
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    span{
+        font-weight: 700;
+    }
+}
+h3{
+    font-size: 1.4rem;
+    @media (min-width:769px){
+        font-size: 1.9rem;
+    }
+    @media(min-width:1025px){
+        font-size: 2rem;
+    }
+    @media(min-width:1400px){
+        font-size: 30px;
+    }
+}
+h6{
+    color: rgba(128, 128, 128, 0.749);
+    @media (min-width:769px){
+        font-size: 1rem;
+    }
+    @media(min-width:1025px){
+        font-size: 1.2rem;
+    }
+    @media(min-width:1400px){
+        font-size: 14px;
+    }
+}

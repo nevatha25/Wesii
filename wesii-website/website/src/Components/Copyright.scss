@@ -1,0 +1,23 @@
+.sixth-component{
+    background-color: rgba(255, 212, 32, 1);
+    .footer-section{
+        padding: 1rem 0;
+        background: rgba(238, 194, 12, 1);
+        @media(min-width:1201px){
+            padding: .7rem 0;
+        }
+        .copyright-sentence{
+            text-align: center;
+            @media(min-width:1201px){
+                display: flex;
+                justify-content: space-between;
+                width: 90%;
+                margin: 0 auto;
+                text-align: unset;
+            }
+            p{
+                padding: .3rem 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+.fourth-component{
+    position: relative;
+    padding: .5rem;
+    background-color: rgba(255, 212, 32, 1);
+    @media(min-width:1201px){
+        padding: 4rem 0;
+    }
+    .wesii-section{
+        border-radius: 12px;
+        color: #FFFFFF;
+        padding: 1rem .5rem;
+        background: url(../images/wesii.png) ;
+        background-size: cover;
+        @media(min-width:769px){
+            padding: 2rem 1rem;
+        }
+        @media(min-width:1025px){
+            padding: 3rem;
+
+        }
+        @media(min-width:1201px){
+            width: 80%;
+            margin: 0 auto ;
+            padding: 5rem;
+            position: relative;
+            z-index: 2;
+        }
+        @media(min-width:1400px){
+            margin: 2rem auto 0;
+            top: -300px;
+        }
+        .wesii-content{
+            h2{
+                span{
+                    color: rgba(255,  212, 32, 1);
+                }
+            }
+            p{
+                padding: .5rem 0;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 23px;
+                @media (min-width:769px){
+                    font-size: 19px;
+                    line-height: 30px;
+                }
+                @media(min-width:1025px){
+                    padding: 3rem 0;
+                    font-size: 16px;
+                    line-height: 27px;
+                    width: 45%;
+                }
+                span{
+                    font-weight: 700;
+                    color: rgba(255, 212, 32, 1);
+                    // color: red;
+
+                }
+            }
+        }//wesii content
+        .count-section{
+            padding-top: 1rem;
+            @media(min-width:769px){
+                display: flex;
+                justify-content: space-around;
+            }
+            @media(min-width:1400px){
+                justify-content: left;
+                margin-left: -2rem;
+            }
+            .border{
+                @media(min-width: 769px){
+                    border-left: 1px solid rgba(128, 128, 128, 0.447);
+                    border-right: 1px solid rgba(128, 128, 128, 0.447);
+                    padding: 0 2rem;
+                }
+            }
+            .counts{
+                @media(min-width: 769px){
+                    padding-right: 2rem;
+                }
+            }
+            .third-count{
+                @media(min-width:769px){
+                    padding-left: 2rem;
+                }
+            }
+            .count{
+                text-align: center;
+                padding-bottom: 1rem;
+                @media(min-width:769px){
+                    text-align: unset;
+                }
+                @media(min-width:1400px){
+                    display: flex;
+                    text-align: center;
+                    flex-direction: column;
+                    // justify-content: center;
+                    padding-bottom: unset;
+                }
+                h2{
+                    color: rgba(255, 212, 32, 1);
+                    font-weight: 800;
+                    font-size: 2rem;
+                    @media(min-width:1400px){
+                        font-size: 3rem;
+                    }
+                }
+                p{
+                    font-weight: 500;
+                    padding:.5rem 0 1rem;
+                    @media(min-width:1400px){
+                        font-size: 18px;
+                        font-weight: 700;
+                        width: 38%;
+                        margin: 0 auto;
+                        padding: unset;
+                        // padding-top: 3rem;
+                    }
+                }
+            }
+        }
+    }//wesii section
+    .anni-image{
+        display: none;
+        @media (min-width:1201px){
+            display: block;
+            position: absolute;
+            z-index: -0;
+            top: -90px;
+            right: 0;
+            width: 60%;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
