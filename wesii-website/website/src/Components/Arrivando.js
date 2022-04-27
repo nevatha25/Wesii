@@ -51,9 +51,9 @@ const Arrivando =() =>{
             <div className="rete-img">
                  <img src ={rete} alt='rete'/>
             </div>
-            <div className="rete1-img">
+            {/* <div className="rete1-img">
                  <img src={reverse} alt='reverse'/>
-            </div>
+            </div> */}
             </section>
         </div>
     )

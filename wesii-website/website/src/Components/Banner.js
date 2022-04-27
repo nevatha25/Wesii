@@ -29,14 +29,14 @@ const Banner = ({clickEvent}) =>{
                         <div className="button b2" id="button-10">
                         <input type="checkbox" className="checkbox"/>
                         <div className="knobs">
-                            <span>Cos’è</span>
+                            <span>Cos'è</span>
                         </div>
                         <div className="layer"></div>
                         </div>
                     </div>
                     </div>
                     </div>
-                    <p>Can aerial termography be painless? We think so!</p>
+                    <p className="check">Can aerial termography be painless? We think so!</p>
                     <p>WESII is flying on hundred plants everyday. Check if your plant was already flied to get a detailed inspection in few hours or discover our next flight schedule.</p>
                     <p>Huge benefits for complete portfolio management.<br/><span>Easier, faster, better, massive.</span></p>
                 </div>

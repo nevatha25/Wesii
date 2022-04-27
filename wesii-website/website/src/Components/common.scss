@@ -6,7 +6,7 @@ h1{
     color: white;
     font-weight: 200;
     font-size: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     span{
         font-weight: 600;
         color: rgba(255, 212, 32, 1);
@@ -19,12 +19,17 @@ h1{
     }
     @media (min-width:1201px){
         font-size: 3rem;
-        width: 60%;
+        margin: 60px 0 0;
     }
     @media(min-width:1400px){
+        width: 60%;
         font-size: 4rem;
-        line-height: 4rem;
+        margin: -20px 0 0;
+        line-height: 4.5rem;
         font-weight: 100;
+    }
+    @media(min-width:1600px){
+        margin: -10px 0 0;
     }
 }//h1 end
 h2{

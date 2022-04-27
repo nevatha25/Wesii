@@ -14,7 +14,9 @@ const Service =()=>{
                 </div>
                 <div className="service-cards">
                     <div  className="card">
+                        <div className="fixed">
                         <img src = {monitoring} alt='monitoring'/>
+                        </div>
                         <div className="card-content">
                             <h6>FOTOVOLTAICO</h6>
                             <h3>Monitoring</h3>
@@ -23,7 +25,9 @@ const Service =()=>{
                         </div>
                     </div>
                     <div className="card">
+                        <div className="fixed">
                         <img src={photogrammetry} alt='photogrammetry'/>
+                        </div>
                         <div className="card-content">
                             <h6>FOTOVOLTAICO</h6>
                             <h3>Photogrammetry</h3>

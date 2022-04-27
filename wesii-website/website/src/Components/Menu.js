@@ -15,7 +15,7 @@ const Menu = ({clickEvent}) =>{
                     <div>
                        <h6>PRESTO ON CON IL NUOVO PORTALE<i className='bx bx-right-arrow-alt'></i> SCOPRI DI PIU <span>50%</span></h6>
                     </div>
-                    <div className='test'></div>
+                    <div className='right'></div>
                 </div>
                 <div className='menu-button'>
                     <button id='top'>PARLA CON UN ESPERTO</button>

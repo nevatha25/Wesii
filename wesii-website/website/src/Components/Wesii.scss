@@ -3,7 +3,7 @@
     padding: .5rem;
     background-color: rgba(255, 212, 32, 1);
     @media(min-width:1201px){
-        padding: 4rem 0;
+        padding: 4rem 1rem;
     }
     .wesii-section{
         border-radius: 12px;
@@ -19,15 +19,17 @@
 
         }
         @media(min-width:1201px){
-            width: 80%;
-            margin: 0 auto ;
-            padding: 5rem;
+            padding: 3rem;
             position: relative;
             z-index: 2;
         }
         @media(min-width:1400px){
+            width: 80%;
+            margin: 0 auto ;
             margin: 2rem auto 0;
             top: -300px;
+            padding: 5rem;
+
         }
         .wesii-content{
             h2{

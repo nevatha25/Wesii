@@ -26,10 +26,14 @@
             padding: 3rem;
         }
         @media (min-width:1201px){
+            padding:3rem;
+            gap: 7rem;
+        }
+        @media(min-width:1400px){
+            padding:5rem;
             width: 80%;
             margin: 0 auto;
-            padding:5rem;
-            gap: 7rem;
+
         }
         .banner-img{
             @media (min-width:1025px){
@@ -127,22 +131,19 @@
             {
                 content: '';
                 left: 2px;
+                top: 3px;
                 padding: 1rem;
                 background-color: rgba(7, 18, 33, 1);
                 border-radius: 5px;
-
             }
             #button-10 .knobs:after
             {
                 content: 'Come funziona';
-                right: 7px;
+                right: 2px;
                 color: #4e4e4e;
                 font-family: Roboto;
                 font-size: 13px;
                 font-weight: 400;
-                @media(min-width: 1201px){
-                    right: 6px;
-                }
             }
             #button-10 .knobs span
             {
@@ -157,7 +158,7 @@
             }
             #button-10 .checkbox:checked + .knobs:before
             {
-                left: 140px;
+                left: 148px;
             }
             #button-10 .checkbox:checked + .knobs:after
             {
@@ -197,6 +198,12 @@
                     }
                 }
             }//banner button
+            .check{
+                margin-top: 3rem;
+                @media(min-width:481px){
+                    margin-top: unset;
+                }
+            }
             p{
                 color: #FFFFFF;
                 font-weight: 300;
@@ -223,7 +230,7 @@
                 top: -1%;
                 right: -1%;
             }
-            @media(min-width:1201px){
+            @media(min-width:1400px){
                 top: -5%;
                 right: -3%;
             }
@@ -232,27 +239,49 @@
                 height: 100%;
             }
         }//plain-img
-       
         // .................................
         .location{
             display: none;
-            @media(min-width:1280px){
+            @media(min-width:1400px){
                 position: absolute;
                 color: black;
                 background-color: white;
                 bottom: -40px;
-                right: 15px;
+                right: 0px;
                 display: flex;
                 align-items: center;
                 gap: 2rem;
                 border-radius: 6px;
-                padding-right: .5rem;
+                padding:0 .5rem;
+            }
+            @media(min-width:1300px){
+                margin: 0 2rem;
             }
             @media(min-width:1400px){
-                right: 40px;
+                // right: unset;
+                margin: 0 6rem;
+            }
+            @media(min-width:1550px){
+                margin: 0 6.5rem;
             }
             @media(min-width:1600px){
-                right: 180px;
+               margin: 0 8rem;
+            }
+            @media(min-width:1640px){
+               margin: 0 10rem;
+            }
+            @media(min-width:1740px){
+                margin: 0 12rem;
+            }
+            @media(min-width:1770px){
+                margin: 0 12.8rem;
+            }
+
+            @media(min-width:1850px){
+                margin: 0 14rem;
+            }
+            @media(min-width:1900px){
+                margin: 0 15.5rem;
             }
               .dropdown {
                 position: relative;
