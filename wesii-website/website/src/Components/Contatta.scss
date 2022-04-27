@@ -5,6 +5,9 @@
     @media(min-width:1201px){
         padding: 0 1rem;
     }
+    @media(min-width:1400px){
+        padding:unset;
+    }
     .contatto-section{
         position: relative;
         background-color: white;
