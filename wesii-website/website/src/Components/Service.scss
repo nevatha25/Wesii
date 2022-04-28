@@ -12,7 +12,7 @@
     }
     .service-section{
     background: radial-gradient(32.57% 69.44% at 50% 53.15%, #2E3640 9.43%, #071221 100%); 
-    padding:1rem .5rem;
+    padding:1rem;
     border-radius: 12px;
     @media(min-width:769px){
     padding:2rem 1rem;
@@ -74,35 +74,27 @@
                 gap: .7rem;
             }
             @media(min-width:1400px){
-                gap: 3rem;
+                gap: 2.5rem;
             }
             .card{
                 @media(min-width:769px){
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                align-items: center;
-                gap: 1rem;
                 }
                 @media (min-width:1025px){
                 margin: 1rem 0;
                 border-radius: 10px;
                 background: #02091243;
                 }
+                
                 @media(min-width:1400px){
                     padding: unset;
+                    gap: unset;
+
                 }
                 .fixed{
-                    @media(min-width:481px){
-                        height: 45rem;
-                    }
-                    @media(min-width:769px){
-                        height: unset;
-                    }
-                    @media(min-width:1025px){
-                        height: 30rem;
-                    }
                     @media(min-width:1080px){
-                        height:unset;
+                        // height:unset;
                     }
                     img{
                         padding: 2rem 0 1rem;
@@ -114,11 +106,18 @@
                     }
                 }
                 .card-content{
+                    @media(min-width:769px){
+                        padding-left: 1rem;
+                    }
                     @media(min-width:1201px){
-                        padding: 0 5px 0 20px;
+                        // padding: 0 5px 0 30px;
+                        padding: 2rem .5rem;
+                        margin-left: 1rem;;
                     }
                     @media(min-width:1400px){
-                        padding-left: 15px;
+                        padding: 2rem;
+                        padding-left: 30px;
+                        margin: unset;
                     }
                     h6{
                         padding: .5rem 0;

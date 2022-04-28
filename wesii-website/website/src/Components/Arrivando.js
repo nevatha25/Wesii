@@ -52,6 +52,9 @@ const Arrivando =() =>{
                  <img src ={rete} alt='rete'/>
             </div>
             </section>
+            <div className="rete1-img">
+                <img src={reverse} alt='reverse'/>
+            </div>
         </div>
     )
 }

@@ -70,6 +70,7 @@
                     gap: .7rem;
                 }
                 @media(min-width:769px){
+                    margin-bottom: 1.5rem;
                     grid-template-columns: 1fr 1fr;
                     grid-template-columns: 300px 300px;
                 }
@@ -82,7 +83,7 @@
                     h6{
                         color: rgba(128, 128, 128, 0.858);
                         position: absolute;
-                        top: -4px;
+                        top: -5px;
                         left: 20px;
                         font-size: 12px;
                         font-weight: 600;
@@ -96,9 +97,10 @@
                         border: none;
                         font-weight: 700;
                         padding: 1.8rem 20px 1rem;
-                        width: 90%;
+                        width: 110%;
                         height: 3.3rem;
                         @media(min-width: 769px){
+                            width: 90%;
                             height: 3.4rem;
                         }
                     }
@@ -108,12 +110,15 @@
                         cursor: pointer;
                         background-color: rgba(255, 212, 32, 1);
                         position: absolute;
-                        right: 11%;
+                        right: -9%;
                         padding: 0 .5rem;
                         font-size: 2rem;
                         border-radius: 5px;
-                        top: 4%;
+                        top: 5%;
                         color: black;
+                        @media(min-width: 769px){
+                        right: 11%;
+                        }
                     }
                 }
             }
@@ -123,7 +128,7 @@
                     cursor: pointer;
                     background-color: rgba(255, 212, 32, 1);
                     text-align: center;
-                    padding: .8rem 4rem;
+                    padding: .8rem 6rem;
                     border-radius: 6px;
                     margin: 1.5rem 0;
                     color: black;
@@ -134,6 +139,9 @@
                     &:hover{
                         box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.096);
                         background-color: rgb(245, 190, 7);
+                    }
+                    @media(min-width:769px){
+                        margin-top: 1.5rem;
                     }
                     @media(min-width: 1201px){
                     padding: .8rem 14rem;

@@ -19,15 +19,15 @@ const Wesii = ()=>{
                 <div className="count-section">
                     <div data-aos="fade-down" data-aos-easing="linear" className="count counts">
                         <h2>10</h2>
-                        <p>ANNI DI ESPERIENZA</p>
+                        <p>ANNI <br/>DI ESPERIENZA</p>
                     </div>
                     <div data-aos="fade-up" data-aos-easing="linear" className="count border">
                         <h2>+300</h2>
-                        <p>AZIENDE CLIENTI</p>
+                        <p>AZIENDE<br/> CLIENTI</p>
                     </div>
                     <div data-aos="fade-down" data-aos-easing="linear" className="count third-count">
                         <h2>+8.000</h2>
-                        <p>ISPEZIONI ALL'ANNO</p>
+                        <p>ISPEZIONI <br/>ALL'ANNO</p>
                     </div>
                 </div>
             </div>
