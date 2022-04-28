@@ -62,13 +62,21 @@
                     font-size: 17px;
                 }
                 .top-arrow{
-                    padding: 0 13px;
+                    @media(min-width: 1201px){
+                    padding: 0 10px;
+                    }
+                    @media(min-width: 1400px){
+                        padding: 0 13px;
+                    }
                 }
                 .fifty-percent{
-                    padding-left: 46px;
+                    padding-left: 20px;
                     font-weight: 900;
                     font-size: 16px;
                     line-height: 10px;
+                    @media(min-width:1400px){
+                        padding-left: 46px;
+                    }
                 }
             }
             .right{

@@ -3,7 +3,7 @@ h1,h2{
 }
 h1{
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #ffffff;
     font-weight: 200;
     font-size: 35px;
     padding-bottom: 5rem;
@@ -30,9 +30,9 @@ h1{
         line-height: 55px;
         font-weight: 100;
     }
-    @media(min-width:1600px){
-        margin: -40px 0 0;
-    }
+    // @media(min-width:1600px){
+    //     margin: -50px 0 0;
+    // }
 }//h1 end
 h2{
     font-size: 1.7rem;

@@ -81,11 +81,11 @@
                     top: 20%;
                 }
                 @media(min-width: 1201px){
-                    top: 30%;
+                    top: 35%;
                 }
-                @media(min-width: 1400px){
-                    top: 32%;
-                }
+                // @media(min-width: 1400px){
+                //     top: 35%;
+                // }
             }
             .button.r, .button.r .layer
             {
@@ -134,9 +134,7 @@
                 left: 1px;
                 top: 3px;
                 padding: 1rem;
-                // font-size: 5px;
                 background-color: rgba(7, 18, 33, 1);
-                // background-color: red;
                 border-radius: 5px;
             }
             #button-10 .knobs:after
@@ -203,6 +201,9 @@
             }//banner button
             .check{
                 margin-top: -1rem;
+                @media(min-width:1400px){
+                    margin-top: 1rem;
+                }
             }
             p{
                 color: #FFFFFF;
