@@ -54,7 +54,7 @@ const Banner = ({clickEvent}) =>{
                     <div className="dropdown stato">
                         <div className="stato-box">
                             <h6>Stato</h6>
-                            <input type="text" placeholder="Lombardia" className="dropbtn"/>
+                            <input type="text" placeholder="Italia" className="dropbtn"/>
                             <div className="dropdown-content">
                                 <a href="#link1">Link 1</a>
                                 <a href="#link2">Link 2</a>
