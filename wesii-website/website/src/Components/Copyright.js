@@ -6,7 +6,7 @@ const Copyright =()=>{
             <footer className="footer-section" >
                 <div className="copyright-sentence">
                     <p>© 2022 Wesii  |  Informativa privacy  |  Informativa cookies </p>
-                    <p>Bluedog Web Agency Milano - Content Marketing Artificial Intelligence</p>
+                    <p><span>Bluedog</span> Web Agency Milano - Content Marketing Artificial Intelligence</p>
                 </div>
             </footer>
         </div>

@@ -16,7 +16,14 @@
                 text-align: unset;
             }
             p{
+                font-family: 'Roboto';
                 padding: .3rem 0;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 14px;
+                span{
+                    font-weight: 900;
+                }
             }
         }
     }

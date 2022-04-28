@@ -82,12 +82,12 @@
                     h6{
                         color: rgba(128, 128, 128, 0.858);
                         position: absolute;
-                        top: -5px;
-                        left: 7px;
+                        top: -4px;
+                        left: 20px;
                         font-size: 12px;
                         font-weight: 600;
                         @media(min-width: 1201px){
-                            left: 10px;
+                            left: 20px;
                         }
                     }
                     input{
@@ -95,15 +95,17 @@
                         border-radius: 5px;
                         border: none;
                         font-weight: 700;
-                        padding: 1.8rem .5rem 1rem;
+                        padding: 1.8rem 20px 1rem;
                         width: 90%;
                         height: 3.3rem;
                         @media(min-width: 769px){
+                            height: 3.4rem;
                         }
                     }
                        
                     button{
                         all: unset;
+                        cursor: pointer;
                         background-color: rgba(255, 212, 32, 1);
                         position: absolute;
                         right: 11%;
@@ -118,6 +120,7 @@
             .arrivando-button{
                 button{
                     all: unset;
+                    cursor: pointer;
                     background-color: rgba(255, 212, 32, 1);
                     text-align: center;
                     padding: .8rem 4rem;

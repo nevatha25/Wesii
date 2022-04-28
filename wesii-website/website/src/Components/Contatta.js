@@ -6,6 +6,7 @@ import '../Components/common.scss'
 import Banner from './Banner'
 import footer from '../images/footer.png'
 import Menu from '../Components/Menu.js'
+import scrollarrow from '../images/scollarrow.png'
 const Contatta =()=>{
     return(
         <div className="fifth-component">
@@ -32,7 +33,7 @@ const Contatta =()=>{
                 <img src={footer} alt='footer'/>
             </div>
             <div className="arrow">
-            <a href='#top'><i className='bx bx-up-arrow-alt'/></a>
+            <a href='#top'><img src={scrollarrow}/></a>
             </div>
         </div>
     )
