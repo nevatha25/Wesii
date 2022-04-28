@@ -99,6 +99,9 @@
                         padding: 1.8rem 20px 1rem;
                         width: 110%;
                         height: 3.3rem;
+                        @media(min-width:400px){
+                            width: 130%;
+                        }
                         @media(min-width: 769px){
                             width: 90%;
                             height: 3.4rem;
@@ -116,6 +119,9 @@
                         border-radius: 5px;
                         top: 5%;
                         color: black;
+                        @media(min-width:400px){
+                            right:-29%
+                        }
                         @media(min-width: 769px){
                         right: 11%;
                         }
