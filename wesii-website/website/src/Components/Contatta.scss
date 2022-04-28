@@ -84,7 +84,7 @@
                 padding: 1rem 0;
                 gap: .5rem;
                 @media(min-width:400px){
-                grid-template-columns:  300px;
+                grid-template-columns:  350px;
                 padding: 1.5rem 0;
                 }
                 @media(min-width:481px){
@@ -138,13 +138,12 @@
                     background-color: rgb(245, 190, 7);
                 }
                 @media(min-width:400px){
-                    padding: .9rem 4rem;
+                    padding: .9rem 5rem;
                 }
                 @media(min-width:1025px){
                     width: 93%;
                     font-weight: 700;
                     padding: 1rem;
-
                 }
             }
         }
