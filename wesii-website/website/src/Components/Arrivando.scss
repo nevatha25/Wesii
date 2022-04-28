@@ -97,10 +97,10 @@
                         border: none;
                         font-weight: 700;
                         padding: 1.8rem 20px 1rem;
-                        width: 110%;
+                        width: 118%;
                         height: 3.3rem;
                         @media(min-width:400px){
-                            width: 130%;
+                            width: 150%;
                         }
                         @media(min-width: 769px){
                             width: 90%;
@@ -113,14 +113,14 @@
                         cursor: pointer;
                         background-color: rgba(255, 212, 32, 1);
                         position: absolute;
-                        right: -9%;
+                        right: -17%;
                         padding: 0 .5rem;
                         font-size: 2rem;
                         border-radius: 5px;
                         top: 5%;
                         color: black;
                         @media(min-width:400px){
-                            right:-29%
+                            right:-49%
                         }
                         @media(min-width: 769px){
                         right: 11%;
@@ -148,13 +148,32 @@
                     }
                     @media(min-width:769px){
                         margin-top: 1.5rem;
+                        padding: .8rem 16rem;
+                    }
+                    @media(min-width:1025px){
+                    padding: .8rem 12rem;
                     }
                     @media(min-width: 1201px){
                     padding: .8rem 14rem;
                     }
+                    @media(min-width:1240px){
+                    padding: .8rem 15rem;
+                    }
                     @media(min-width:1400px){
-                    padding: .8rem 16.7rem;
+                    padding: .8rem 13.4rem;
+                    }
+                    @media(min-width:1500px){
+                    padding: .8rem 14.5rem;
 
+                    }
+                    @media(min-width: 1600px){
+                    padding: .8rem 16rem;
+                    }
+                    @media(min-width: 1700px){
+                    padding: .8rem 17rem;
+                    }
+                    @media(min-width:1800px){
+                    padding: .8rem 18rem;
                     }
                 }
             }
