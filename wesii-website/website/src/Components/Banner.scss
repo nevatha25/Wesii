@@ -66,13 +66,13 @@
             position: absolute;
             top: 0;
             right: 0;
-            bottom: 0;
+            bottom:0;
             left: 0;
             }
             .button
             {
                 position: absolute;
-                top: 17%;
+                top: 22%;
                 width: 250px;
                 height: 36px;
                 border-radius: 4px;
@@ -118,9 +118,9 @@
             {
                 position: absolute;
                 top: 4px;
-                width: 100px;
+                width: 128px;
                 height: 10px;
-                font-size: 13px;
+                font-size: 11px;
                 font-weight: bold;
                 text-align: center;
                 line-height: 1;
@@ -131,19 +131,21 @@
             #button-10 .knobs:before
             {
                 content: '';
-                left: 2px;
+                left: 1px;
                 top: 3px;
                 padding: 1rem;
+                // font-size: 5px;
                 background-color: rgba(7, 18, 33, 1);
+                // background-color: red;
                 border-radius: 5px;
             }
             #button-10 .knobs:after
             {
-                content: 'Come funziona';
-                right: 2px;
+                content: 'COME FUNZIONA';
+                right:3px;
                 color: #4e4e4e;
                 font-family: Roboto;
-                font-size: 13px;
+                font-size: 11px;
                 font-weight: 400;
             }
             #button-10 .knobs span
@@ -159,7 +161,7 @@
             }
             #button-10 .checkbox:checked + .knobs:before
             {
-                left: 148px;
+                left: 118px;
             }
             #button-10 .checkbox:checked + .knobs:after
             {
@@ -200,17 +202,14 @@
                 }
             }//banner button
             .check{
-                margin-top: 3rem;
-                @media(min-width:481px){
-                    margin-top: unset;
-                }
+                margin-top: -1rem;
             }
             p{
                 color: #FFFFFF;
                 font-weight: 300;
                 font-size: 15px;
                 line-height: 24px;
-                padding-bottom: .5rem;
+                padding-bottom: 15px;
                 span{
                     font-weight: 700;
                     color: rgba(255, 212, 32, 1);
@@ -218,7 +217,12 @@
                 @media(min-width:769px){
                     font-size: 19px;
                     line-height: 30px;
-                    padding: 1rem 0;
+                    padding: .8rem 0;
+                }
+                @media(min-width:1201px){
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 28px;
                 }
             }
         }//banner content

@@ -55,8 +55,12 @@
                     font-size: 19px;
                     line-height: 30px;
                 }
+                @media(min-width:1201px){
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
                 @media(min-width:1400px){
-                    font-size: 16px;
                     padding: 1.2rem 0 3rem;
                     width: 80%;
                     margin: 0 auto;
@@ -84,10 +88,8 @@
                 border-radius: 10px;
                 background: #02091243;
                 }
-                
                 @media(min-width:1400px){
                     padding: unset;
-                    gap: 2rem;
                 }
                 .fixed{
                     @media(min-width:481px){
@@ -112,11 +114,17 @@
                     }
                 }
                 .card-content{
+                    @media(min-width:1201px){
+                        padding: 0 5px 0 20px;
+                    }
                     @media(min-width:1400px){
-                        padding-right: 2rem;
+                        padding-left: 15px;
                     }
                     h6{
                         padding: .5rem 0;
+                        @media(min-width:1201px){
+                             line-height: 1px;
+                        }
                     }
                     h3{
                         color: rgba(255, 212, 32, 1);

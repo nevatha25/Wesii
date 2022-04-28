@@ -3,7 +3,7 @@ import './Menu.scss'
 import '../Components/common.scss'
 import logo from '../images/logo.png'
 import rete from '../images/rete.png'
-
+import toparrow from '../images/toparrow.png'
 const Menu = ({clickEvent}) =>{
     return(
         <div className='first-component' id='menu'>
@@ -13,7 +13,7 @@ const Menu = ({clickEvent}) =>{
                 </div>
                 <div className='menu-center-section' id='start'>
                     <div>
-                       <h6>PRESTO ON CON IL NUOVO PORTALE<i className='bx bx-right-arrow-alt'></i> SCOPRI DI PIU <span>50%</span></h6>
+                       <h6>PRESTO ON CON IL NUOVO PORTALE<span className='top-arrow'><img src={toparrow} alt="top-arrow"/></span>SCOPRI DI PIU <span className='fifty-percent'>50%</span></h6>
                     </div>
                     <div className='right'></div>
                 </div>
